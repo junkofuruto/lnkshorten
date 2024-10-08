@@ -5,7 +5,7 @@ conn = mysql.connector.connect(
   host="127.0.0.1",
   user=config.MYSQL_U,
   password=config.MYSQL_P,
-  db="lnkshortyfy"
+  db="lnkshorten"
 )
 
 def __sha256_checksum(s: str) -> str:
